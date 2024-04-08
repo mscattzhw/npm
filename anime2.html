@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anime.js Animation</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
+<body>
+    <p id="animatedText">Herzlich Wilkommen bei Devops</p>
+
+    <script>
+        anime({
+            targets: '#animatedText',
+            easing: 'easeInOutElastic',
+            translateX: 250,
+            duration: 1500,
+            direction: 'alternate',
+            loop: true
+        });
+    </script>
+</body>
+</html>
