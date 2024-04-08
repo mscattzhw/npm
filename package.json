@@ -1,0 +1,15 @@
+{
+  "name": "matteotest",
+  "version": "1.0.0",
+  "description": "zhaw-test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo..."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animejs": "^3.2.2",
+    "chart.js": "^4.4.1"
+  }
+}
